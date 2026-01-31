@@ -1,0 +1,3 @@
+In this program, the data sent by the publisher node consists of simple movement commands for a robot. The publisher takes input from the keyboard entered by the user, and depending on whether the user enters ‘w’ or ‘s’, it corresponds to a command to move forward or backward, respectively. Each input has a value: 1 for ‘w’ and -1 for ‘s’ to represent forward and backward movement. If the user enters ‘q’, the program stops. The subscriber node receives these commands, calculates the total number of steps taken, and consistently outputs the total steps in the console.
+
+This type of data contributes to a robotics system because it provides basic movement commands for the robot.
